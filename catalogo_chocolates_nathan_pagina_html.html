@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Catálogo - Chocolates Nathan</title>
+  <style>
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:#fff8f0; color:#3b2b2b}
+    header{background:#4b2e2e; color:#fff; padding:28px 20px; text-align:center}
+    .container{max-width:960px;margin:24px auto;padding:0 16px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+    .card{background:#fff;padding:14px;border-radius:12px;box-shadow:0 6px 18px rgba(59,43,43,0.08)}
+    .thumb{height:150px;border-radius:8px;background:linear-gradient(135deg,#f1d3c1,#e6b9a3);display:flex;align-items:center;justify-content:center;font-weight:700;color:#5a362f}
+    h1{margin:0;font-size:28px}
+    h2{font-size:18px;margin:6px 0}
+    p{margin:6px 0 12px}
+    .price{font-weight:700;font-size:16px}
+    footer{margin:36px 0 80px;text-align:center;color:#6b4b48}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:#5a2d2d;color:#fff;text-decoration:none}
+    nav{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:8px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chocolates Nathan — Catálogo</h1>
+    <div>Sabores artesanales • Empaques premium • Pedido mínimo: 6 unidades</div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Colección destacada</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="thumb">Nathan Classic</div>
+          <h3>Barra Nathan Classic 70% (100g)</h3>
+          <p>Chocolate oscuro 70% de cacao, textura aterciopelada y notas a frutos rojos.</p>
+          <div class="price">$8.000 COP</div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">Leche</div>
+          <h3>Barra Nathan Leche (100g)</h3>
+          <p>Fórmula cremosa con leche de alta calidad y un toque de caramelo.</p>
+          <div class="price">$7.000 COP</div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">Relleno</div>
+          <h3>Bombones Rellenos (Caja 12)</h3>
+          <p>Selección mixta: caramelo salado, praliné, maracuyá y almendra tostada.</p>
+          <div class="price">$28.000 COP</div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">Pack Regalo</div>
+          <h3>Pack Regalo Nathan (Caja)</h3>
+          <p>3 barras variadas + 6 bombones, empaque regalo premium.</p>
+          <div class="price">$48.000 COP</div>
+        </article>
+      </div>
+    </section>
+
+    <section style="margin-top:22px">
+      <h2>Información y contacto</h2>
+      <p>Pedidos por WhatsApp: <a href="https://wa.me/573001234567?text=Hola%20Nathan,%20quiero%20hacer%20un%20pedido" target="_blank">+57 300 1234567</a> · Email: <a href="mailto:ventas@chocolatesnathan.com">ventas@chocolatesnathan.com</a></p>
+      <nav>
+        <a class="btn" href="#">Descargar catálogo (PDF)</a>
+        <a class="btn" href="#">Ver lista de precios completa</a>
+      </nav>
+    </section>
+  </main>
+
+  <footer>
+    © Nathan Chocolates — Hecho con cariño
+  </footer>
+</body>
+</html>
